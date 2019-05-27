@@ -33,8 +33,7 @@ p.sansserif_large {
 }
 
 a:link, a:visited {
-  background-color: #f44336;
-  color: white;
+  color: rgb(10,9,8);
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
@@ -42,5 +41,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: red;
+  background-color: rgb(171,38,12);
+  color: rgb(222,230,252);
+
 }
