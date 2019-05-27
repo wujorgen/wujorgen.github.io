@@ -28,6 +28,12 @@ div.blank {
 
 p.sansserif_large {
         font-family: "Helvetica Neue",helvetica,arial,sans-serif;
+        font-size: 30px;
+        line-height: 20px; 
+}
+
+ul.sansserif {
+        font-family: "Helvetica Neue",helvetica,arial,sans-serif;
         font-size: 20px;
         line-height: 20px; 
 }
