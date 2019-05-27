@@ -20,6 +20,12 @@ div.blank {
         text-align: center;
 }
 
+#standard {
+        font-family: helvetica;
+        font-size: 20px;
+        line-height: 20px; 
+}
+
 p.sansserif_large {
         font-family: "Helvetica Neue",helvetica,arial,sans-serif;
         font-size: 20px;
