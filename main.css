@@ -11,6 +11,12 @@ div.blank_s {
   height: 25px;
 }
 
+div.container_center { 
+    align-items: center;
+}
+  
+  
+
 #WHOAMI {
         font-family: helvetica;
         font-size: 50px;
