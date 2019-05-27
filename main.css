@@ -12,9 +12,10 @@ div.blank_s {
 }
 
 div.container_center { 
-    margin:0 auto;
+    margin-right: auto;
+    margin-left: auto;
 
-    align-items: center;
+    /*align-items: center;*/
 }
   
   
