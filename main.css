@@ -3,17 +3,6 @@ body {
   color: rgb(237,238,243);
 }
 
-p.sansserif_large 
-        { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-          font-size: 40px;
-          line-height: 20px; }
-        }
-
-p.sansserif_medium 
-        { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-          font-size: 20px;
-          line-height: 20px; }
-        }
 #WHOAMI {
         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
