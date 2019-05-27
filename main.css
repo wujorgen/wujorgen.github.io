@@ -3,8 +3,12 @@ body {
   color: rgb(10,9,8);
 }
 
-div.blank {
+div.blank_m {
     height: 50px;
+}
+
+div.blank_s {
+  height: 25px;
 }
 
 #WHOAMI {
