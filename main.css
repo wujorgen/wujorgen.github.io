@@ -11,8 +11,13 @@ div.blank_s {
   height: 25px;
 }
 
-div.container { 
-    align-items: center;
+.box { 
+    /*align-items: center;
+    text-align: center;*/
+    display: inline-block;
+}
+
+.container {
     text-align: center;
 }
   
