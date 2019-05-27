@@ -12,12 +12,8 @@ div.blank_s {
 }
 
 div.container { 
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-
-    /*align-items: center;*/
+    align-items: center;
+    text-align: center;
 }
   
   
