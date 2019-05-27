@@ -46,3 +46,7 @@ a:hover, a:active {
   color: rgb(222,230,252);
 
 }
+
+img.one {
+  height: auto;
+}
