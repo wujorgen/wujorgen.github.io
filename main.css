@@ -33,6 +33,7 @@ p.sansserif_large {
 }
 
 a:link, a:visited {
+  background-color: rgb(240,243,252);
   color: rgb(10,9,8);
   padding: 15px 25px;
   text-align: center;
