@@ -37,6 +37,13 @@ div.container {
         line-height: 20px; 
 }
 
+#standardC {
+        font-family: helvetica;
+        font-size: 20px;
+        line-height: 20px; 
+        text-align: center;
+}
+
 p.sansserif_large {
         font-family: helvetica;
         font-size: 30px;
