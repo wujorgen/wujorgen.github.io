@@ -3,8 +3,11 @@ body {
   color: rgb(237,238,243);
 }
 
+div.blank {
+    height: 50px;
+}
+
 #WHOAMI {
-        padding-top: 50px;
         font-family: helvetica;
         font-size: 50px;
         line-height: 20px; 
