@@ -1,0 +1,6 @@
+make a menu bar up top
+use the test.html code for background of main page (with the menu bar)
+
+links in menu bar: about, contact, resume, projects, music
+
+split the rest of the stuff into seperate html pages
