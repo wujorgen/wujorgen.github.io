@@ -56,11 +56,11 @@ body {
       font-size: 17px;
 }
 .topnav a:hover {
-      background-color: rgb(255, 165, 0);
+      background-color: rgb(252, 102, 0);
       color: black;
 }
 .topnav a.active {
-      background-color: rgb(255, 165, 0);
+      background-color: rgb(227,38,54);
       color: white;
 } 
 /*END NAVBAR CODE*/
