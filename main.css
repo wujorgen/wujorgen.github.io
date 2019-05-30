@@ -52,7 +52,7 @@ body {
 }
 .topnav a:hover {
       background-color: rgb(252, 102, 0);
-      color: black;
+      color: grey;
 }
 .topnav a.active {
       background-color: rgb(227,38,54);
