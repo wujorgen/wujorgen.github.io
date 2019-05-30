@@ -60,7 +60,7 @@ body {
     background-color: rgb(252, 102, 0);
     color: white;
 }
-.topnav a.active {
+.topnav a.top:active {
     background-color: rgb(227,38,54);
     color: white;
 } 
