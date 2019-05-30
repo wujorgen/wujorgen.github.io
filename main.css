@@ -60,6 +60,10 @@ body {
       background-color: rgb(227,38,54);
       color: white;
 } 
+.topnav a.inactive {
+      background-color: rgb(0,0,0);
+      color: white;
+} 
 /*END NAVBAR CODE*/
 
 #WHOAMI {
