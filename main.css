@@ -75,27 +75,27 @@ body {
 #WHOAMI {
         font-family: helvetica;
         font-size: 50px;
-        line-height: 20px; 
+        line-height: 25px; 
         text-align: center;
       }
 #ABOUTME {
         font-family: helvetica;
         font-size: 30px;
-        line-height: 20px; 
+        line-height: 25px; 
         text-align: center;
 }
 
 #standard {
         font-family: helvetica;
         font-size: 20px;
-        line-height: 20px; 
+        line-height: 25px; 
 }
 
 
 p.sansserif_large {
         font-family: helvetica;
         font-size: 30px;
-        line-height: 20px; 
+        line-height: 25px; 
 }
 
 a:link, a:visited {
