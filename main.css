@@ -41,9 +41,10 @@ body {
 .topnav {
     overflow: hidden;
     background-color: rgb(10,9,8);
+    float: left;
 }
 .topnav a.top {
-    float: left;
+    /*float: left;*/
     background-color: rgb(10,9,8);
     color: white;
     text-align: center;
@@ -60,7 +61,6 @@ body {
     color: white;
 }
 .topnav a.active {
-    float: left;
     background-color: rgb(227,38,54);
     color: white;
 } 
