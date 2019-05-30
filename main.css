@@ -40,18 +40,18 @@ body {
 /*NAVBAR CODE*/
 .topnav {
       overflow: hidden;
-      background-color: rgb(0,0,0);
+      background-color: rgb(10,9,8);
 }
-.topnav a {
+.topnav a.top {
       float: left;
-      background-color: rgb(0,0,0);
+      background-color: rgb(10,9,8);
       color: white;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
       font-size: 20px;
 }
-.topnav a:hover {
+.topnav a.top:hover {
       background-color: rgb(252, 102, 0);
       color: white;
 }
@@ -59,10 +59,7 @@ body {
       background-color: rgb(227,38,54);
       color: white;
 } 
-.topnav a.inactive {
-      background-color: rgb(0,0,0);
-      color: white;
-} 
+
 /*END NAVBAR CODE*/
 
 #WHOAMI {
@@ -92,8 +89,8 @@ p.sansserif_large {
 }
 
 a:link, a:visited {
-  /*background-color: rgb(240,243,252);
-  color: rgb(10,9,8);*/
+  background-color: rgb(240,243,252);
+  color: rgb(10,9,8);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
