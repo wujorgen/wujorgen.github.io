@@ -60,6 +60,7 @@ body {
     color: white;
 }
 .topnav a.active {
+    float: left;
     background-color: rgb(227,38,54);
     color: white;
 } 
