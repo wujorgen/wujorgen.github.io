@@ -86,7 +86,7 @@ p.sansserif_large {
         line-height: 20px; 
 }
 
-a:link, a:visited {
+.secondary a:link, a:visited {
   background-color: rgb(240,243,252);
   color: rgb(10,9,8);
   padding: 10px 20px;
@@ -95,7 +95,7 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+.secondary a:hover, a:active {
   background-color: rgb(196,77,53);
   color: rgb(222,230,252);
 
