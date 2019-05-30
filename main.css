@@ -42,7 +42,7 @@ body {
     overflow: hidden;
     background-color: rgb(10,9,8);
     float: left;
-    width: 100%
+    width: 100%;
 }
 .topnav a.top {
     /*float: left;*/
