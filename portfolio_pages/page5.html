@@ -35,14 +35,17 @@
          <div class="row justify-content-center">
             <div class="col-md-8 col-sm-12 wow fadeInDown">
                <p>
-                  This robot was built during my freshman year at Purdue University. The project is called the MArs Cargo ROver (MACRO), and was the third project in the Honors Introduction to Engineering class (ENGR 16100). 
-                  The premise of the project was to build a prototype of an autonomous robot capable of navigating varied terrain, transporting cargo, and depositing cargo to the appropriate location.
-                  The materials provided were a RaspberryPi, a GrovePi board, various Lego parts and sensors, and third party sensors.
+                  In 2017, I attended the LEAP @ CMU program during the summer. 
+                  Alongside two other students, the final project I worked on for the summer was building a computer vision system to allow mini robots to play soccer. 
+                  There are four robots total, so "matches" can be run in a 2v2 and 1v1 format. 
+                  A ping pong ball is used as a soccer ball stand in.
                   <br><br>
-                  The robot was modelled after the skid steers used on construction sites, for their ability to handle various terrain, a zero turn radius, and robustness.
-                  The sensors used were 1x EV3 Ultrasonic Sensor, 2x Hall Effect Sensor, and 2x Line Finder. 
-                  The ultrasonic sensor is used for obstacle detection, while the hall sensors are used to read magnets embedded beneath the test track. The line finders are used in following the line on the test track.
-                  A front and rear view of the robot is provided below.
+                  The robots are the Pololu 3Pi unit, which are essentially Arduinos on wheels. 
+                  These are programmed using the Arduinno language and IDE. 
+                  The robots communicate with a laptop using bluetooth. 
+                  A serial-to-bluetooth unit is attached to each Pololu, which can be paired to the laptop and accessed via a COM port.
+                  <br><br>
+                  Pictures of the SoccerBots being assembled are shown below.
                </p>
             </div>
          </div>
@@ -71,9 +74,17 @@
          <div class="row justify-content-center">
             <div class="col-md-8 col-sm-12 wow fadeInDown">
                <p>
-                  FILLER TEXT
+                  The controlling program on the laptop is written using Processing, a graphically oriented version of Java. 
+                  The purpose of the program is to calculate appropriate travel paths for each robot and team based on location and velocity data for the robots and ball. 
+                  Previous versions of the algorithm for path planning were quite complicated, and included methods such as projecting a circle along the path of each robot, and instructing the robot to turn along the arc before following a line tangent to the arc to intercept the ball. 
+                  Most previous algorithms did not work, or only worked with one robot at a time, so were scrapped. 
+                  The final algorithm simply has the robots drive a set distance, before stopping and rotating in place to reorient itself. 
                   <br><br>
-                  FILLER TEXT
+                  The computer vision was written using OpenCV. 
+                  Each robot is equipped with bright colored markers, to allow the computer vision to identify its location. 
+                  (Velocity is calculated by comparing current to previous position.) 
+                  The field is a large green tarp, and the ball is bright orange. 
+                  The camera is a Logitech webcam, mounted above the field using a greenscreen mount. 
                   <br><br>
                   The video below recaps the progress and performance of the robots.
                </p>
