@@ -365,6 +365,10 @@ p {
 	overflow: auto;
 }
 
+.hidebar::-webkit-scrollbar {
+  display: none;
+}
+
 @media (min-width: 1200px) {
 	.Wrapper>div {
 		height: 100%;
