@@ -2,10 +2,18 @@
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: circus.png
+img: mazerobot/mazebot_left_side.jpg
+title: Maze Robot
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: "
+Simple wall-following maze robot. 
+Utilizes a staggered drivetrain where the front motor powers the left track and the rear motor powers the right track. 
+This was inspired by the differential assemblies and swing-axle suspension used on TATRA Trucks.<br>
+"
+img2: mazerobot/mazebot_upside_down.jpg
+alt2: image-alt
+yt_link: https://www.youtube.com/embed/hanzvAAH7MU
 ---

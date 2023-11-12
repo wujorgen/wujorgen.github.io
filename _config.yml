@@ -2,10 +2,10 @@
 title: Jorgen Wu
 email: wujorgen@gmail.com
 url: https://www.linkedin.com/in/jorgen-wu/
-description: "Jorgen Wu's personal site."
+description: "Jorgen Wu's personal site. Welcome!"
 keywords: "Jorgen Wu, Jorgen, Wu"
 skills: "This site is still under development. Thanks for stopping by. :)"
-meta_author: LastName FirstName
+meta_author: Wu Jorgen
 
 # Google webmaster tools
 google_verify:
@@ -26,16 +26,16 @@ disqus_shortname: myshortname
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 222222 #18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
+  primary-rgb: "128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Jorgen Wu
   location: Location
   social: Around the Web
-  credits: Credits
+  credits: Get In Touch
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
