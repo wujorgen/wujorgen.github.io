@@ -5,9 +5,7 @@ date: 2014-07-16
 img: mazerobot/mazebot_left_side.jpg
 title: Maze Robot
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+project-date: May 2018
 description: "
 Simple wall-following maze robot. 
 Utilizes a staggered drivetrain where the front motor powers the left track and the rear motor powers the right track. 

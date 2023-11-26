@@ -7,8 +7,8 @@ title: BLUESKY
 alt: image-alt
 link: https://github.com/wujorgen/BLUESKY
 link_text: BLUESKY GitHub
-#project-date: April 2014
-#client: Start Bootstrap
-#category: Web Development
+#project-date: Fall 2018
+#location: Purdue University
+#category: Robotics
 description: BLUESKY is a suite of Python tools meant for data mining market information on automobile pricing. It is currently under development.
 ---

@@ -25,6 +25,7 @@
 {% include js_disqus.html %}
 {% endif %}
 
+<!-- This script below stops playback of modal embeded videos on modal close by..."reloading" the page. lol.-->
 <script>
 $('body').on('hide.bs.modal', '.modal', function() {
   const $modal = $(this);
