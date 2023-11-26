@@ -58,26 +58,12 @@
             {% if post.yt_link %}
             <div class="img-responsive img-centered" class="video-responsive">
               <iframe width=100% height="400px" margin="auto" src={{ post.yt_link }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              <script>
-                // Get the YouTube player element
-                const player = document.getElementById('ytplayer');
-            
-                // Add an event listener for the scroll event
-                window.addEventListener('scroll', function() {
-                  // Check if the video is visible in the viewport
-                  const rect = player.getBoundingClientRect();
-                  const isVisible = rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
-            
-            
-                  
-            // If the video is visible, play it; otherwise, pause it
-                  if (isVisible) {
-                    player.playVideo();
-                  } else {
-                    player.pauseVideo();
-                  }
-                });
-              </script>
+            </div>
+            {% endif %}
+
+            {% if post.yt_link2 %}
+            <div class="img-responsive img-centered" class="video-responsive">
+              <iframe width=100% height="400px" margin="auto" src={{ post.yt_link2 }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             {% endif %}
 

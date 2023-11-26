@@ -8,5 +8,11 @@ title: 4lb Battle Bot
 project-date: Spring 2018
 location: Pittsburgh, PA
 category: Robotics & Manufacturing
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: "This robot was manufactured as part of a fabrication/robotics class I took. The electronics are repurposed from RC airplane kits, and the body is made from composite plastic and aluminum plating.
+                  The weight class is 4 lb, so the fully assembled robot must be under that weight. 
+                  <br><br>
+                  The robot utilizes a vertical spinning disk as its primary weapon. The brushless motor that would normally be used to drive the propeller on an RC plane is used to drive the weapon, while standard DC motors are used to drive the wheels.
+                  The aluminum is cut to size using a laser cutter, and the plastic body is made using a Haas multi-axis CNC mill. 
+                  <br><br>"
+img2: battlebot/battlebot_front_three_quarter.jpg
 ---

@@ -8,6 +8,15 @@ title: Soccer Bots
 project-date: Summer 2017
 location: Carnegie Mellon University
 category: Robotics
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: "In 2017, I attended the LEAP @ CMU program during the summer. 
+                  Alongside two other students, the final project I worked on for the summer was building a computer vision system to allow mini robots to play soccer. 
+                  There are four robots total, so \"matches\" can be run in a 2v2 and 1v1 format. 
+                  A ping pong ball is used as a soccer ball stand in.
+                  <br><br>
+                  The robots are the Pololu 3Pi unit, which are essentially Arduinos on wheels. 
+                  These are programmed using the Arduinno language and IDE. 
+                  The robots communicate with a laptop using bluetooth. 
+                  A serial-to-bluetooth unit is attached to each Pololu, which can be paired to the laptop and accessed via a COM port.
+                  <br><br>"
 yt_link: https://www.youtube.com/embed/zPgr3tSmE5Q?si=epfZwAmx2FlIQM_H
 ---
