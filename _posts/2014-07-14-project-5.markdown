@@ -3,11 +3,11 @@ layout: default
 modal-id: 5
 date: 2014-07-14
 img: battlebot/battlebot_cropped.jpg
-alt: image-alt
+alt: A custom built battle bot weighing 4 pounds.
 title: 4lb Battle Bot
 project-date: Spring 2018
 location: Pittsburgh, PA
-category: Robotics & Manufacturing
+category: Manufacturing
 description: "This robot was manufactured as part of a fabrication/robotics class I took. The electronics are repurposed from RC airplane kits, and the body is made from composite plastic and aluminum plating.
                   The weight class is 4 lb, so the fully assembled robot must be under that weight. 
                   <br><br>

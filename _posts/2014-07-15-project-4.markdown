@@ -3,7 +3,7 @@ layout: default
 modal-id: 4
 date: 2014-07-15
 img: soccerbots/soccerbots1.jpg
-alt: image-alt
+alt: Four Pololu 3Pi Robots, modified with Bluetooth receivers.
 title: Soccer Bots
 project-date: Summer 2017
 location: Carnegie Mellon University

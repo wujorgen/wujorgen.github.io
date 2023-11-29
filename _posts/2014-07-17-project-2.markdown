@@ -4,7 +4,7 @@ modal-id: 2
 date: 2014-07-17
 img: project_karma/karma_left.jpg
 title: Project Karma
-alt: image-alt
+alt: Four wheeled robot.
 project-date: Fall 2018
 location: Purdue University
 category: Robotics

@@ -8,5 +8,19 @@ title: Music Production and Creative Services
 #project-date: April 2014
 #client: Start Bootstrap
 category: Content Creation
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+link: https://www.soundcloud.com/jorgenwu
+link_text: JORG on SoundCloud
+description: '<p>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.socom/playlists/1293444919&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teavisual=true"></iframe>
+<br><br><br>
+<iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.socom/playlists/1172422729&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teavisual=true"></iframe>
+<br><br><br>
+<iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=httpssoundcloud.com/playlists/930940474&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposshow_teaser=true&visual=true"></iframe>
+<br><br><br>
+<iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=httpssoundcloud.com/playlists/797225631&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposshow_teaser=true&visual=true"></iframe>
+<br><br><br>
+<iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=httpsoundcloud.com/playlists/596052888&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposhow_teaser=true&visual=true"></iframe>
+<br><br><br>
+<iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/261708645&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+</p>'
 ---

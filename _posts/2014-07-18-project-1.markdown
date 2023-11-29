@@ -4,7 +4,7 @@ modal-id: 1
 date: 2014-07-18
 img: BLUESKY_LOGO.png
 title: BLUESKY
-alt: image-alt
+alt: BLUESKY logo
 link: https://github.com/wujorgen/BLUESKY
 link_text: BLUESKY GitHub
 #project-date: Fall 2018

@@ -4,8 +4,10 @@ modal-id: 3
 date: 2014-07-16
 img: mazerobot/mazebot_left_side.jpg
 title: Maze Robot
-alt: image-alt
+alt: Robot with two tank style treads.
 project-date: May 2018
+location: Pittsburgh, PA
+category: Robotics
 description: "
 This maze robot was built and programmed over the course of two class periods, as part of an Intro to Robotics Class I took.
                   The objective of the robot is to reach the end of a maze / navigate through a system of corridors using a simple algorithm. 
