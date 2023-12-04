@@ -375,6 +375,11 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }};
 }
 
+.footer-col a[href^="mailto:"] {
+    color: #ffffff; /* Replace #ff0000 with the desired color code */
+    /* You can also use color names like 'red' or 'blue' */
+  }
+
 .btn-social {
     display: inline-block;
     width: 50px;

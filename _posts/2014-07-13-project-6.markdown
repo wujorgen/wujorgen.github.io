@@ -11,6 +11,8 @@ category: Content Creation
 link: https://www.soundcloud.com/jorgenwu
 link_text: JORG on SoundCloud
 description: '<p>
+I produce music independently and for contracts. If you are interested in hiring me for production services, mixing services, or commissioning a track, please reach out to me. <br><br>
+Currently, I mostly produce music falling under the EDM genre. In the past, I have produced rock and metal. Some of my music is linked below.<br><br>
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.socom/playlists/1293444919&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teavisual=true"></iframe>
 <br><br><br>
 <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.socom/playlists/1172422729&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teavisual=true"></iframe>
