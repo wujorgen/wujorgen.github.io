@@ -24,3 +24,14 @@
 <!-- Disqus Stuff -->
 {% include js_disqus.html %}
 {% endif %}
+
+<!-- This script below stops playback of modal embeded videos on modal close by..."reloading" the page. lol.-->
+<script>
+$('body').on('hide.bs.modal', '.modal', function() {
+  const $modal = $(this);
+  // return early if there were no embedded YouTube videos
+  if ($modal.find('iframe').length === 0) return;
+  const html = $modal.html();
+  $modal.html(html);
+});
+</script>

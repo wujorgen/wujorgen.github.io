@@ -16,13 +16,16 @@
             <h2>{{ post.title }}</h2>
             <hr class="star-primary">
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-            {% if post.description %}
-            <p>{{ post.description }}</p>
-            {% endif %}
+                        
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
                 <strong>{{ post.client }}</strong>
+              </li>
+              {% endif %}
+              {% if post.location %}
+              <li>Location:
+                <strong>{{ post.location }}</strong>
               </li>
               {% endif %}
               {% if post.project-date %}
@@ -31,12 +34,41 @@
               </li>
               {% endif %}
               {% if post.category %}
-              <li>Service:
+              <li>Category:
                 <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
+              {% if post.link %}
+              <li>Link:
+                <a href={{ post.link }} target="blank">
+                  <strong>{{ post.link_text }}</strong>
+                </a>
+              </li>
+              {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+
+            {% if post.description %}
+            <p>{{ post.description }}</p>
+            {% endif %}
+
+            {% if post.img2 %}
+            <img src="img/portfolio/{{ post.img2 }}" class="img-responsive img-centered" alt="{{ post.alt2 }}">
+            {% endif %}
+
+            {% if post.yt_link %}
+            <div class="img-responsive img-centered" class="video-responsive">
+              <iframe width=100% height="400px" margin="auto" src={{ post.yt_link }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            {% endif %}
+
+            {% if post.yt_link2 %}
+            <div class="img-responsive img-centered" class="video-responsive">
+              <iframe width=100% height="400px" margin="auto" src={{ post.yt_link2 }} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            {% endif %}
+
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              <!-- <i class="fa fa-times"></i> -->
               Close</button>
           </div>
         </div>

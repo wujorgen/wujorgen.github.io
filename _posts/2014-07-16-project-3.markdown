@@ -2,10 +2,26 @@
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: circus.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+img: mazerobot/mazebot_left_side.jpg
+title: Maze Robot
+alt: Robot with two tank style treads.
+project-date: May 2018
+location: Pittsburgh, PA
+category: Robotics
+description: "
+This maze robot was built and programmed over the course of two class periods, as part of an Intro to Robotics Class I took.
+                  The objective of the robot is to reach the end of a maze / navigate through a system of corridors using a simple algorithm. 
+                  A touch sensor / limit switch is mounted to the front of the robot to detect collisions. 
+                  In the event of a collision, distance data is read from a ultrasonic sensor mounted on the left of the robot.
+                  Whether the path on the left is clear or not determines if the robot turns right or left.
+                  <br><br>
+                  The drivetrain employs staggered treads to fit both motors vertically and inline. The EV3 Large motor in front drives the left tread, while the one in the rear drives the right tread.
+                  The treads are plastic, which allows for slipping in the event the robot cannot perfectly orient itself, and its narrow profile is well suited for narrow corridors.
+                  The EV3 computer is mounted on top of the robot, ensuring the machine stays narrow and retains a small footprint.
+                  <br><br>
+                  Pictures and a demonstration video are provided below.
+                  <br><br>"
+img2: mazerobot/mazebot_upside_down.jpg
+alt2: image-alt
+yt_link: https://www.youtube.com/embed/hanzvAAH7MU
 ---

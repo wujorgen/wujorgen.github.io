@@ -2,10 +2,21 @@
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: cake.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+img: project_karma/karma_left.jpg
+title: Project Karma
+alt: Four wheeled robot.
+project-date: Fall 2018
+location: Purdue University
+category: Robotics
+description: "This robot was built during my freshman year at Purdue University. The project is called the MArs Cargo ROver (MACRO), and was the third project in the Honors Introduction to Engineering class (ENGR 16100). 
+                  The premise of the project was to build a prototype of an autonomous robot capable of navigating varied terrain, transporting cargo, and depositing cargo to the appropriate location.
+                  The materials provided were a RaspberryPi, a GrovePi board, various Lego parts and sensors, and third party sensors.
+                  <br><br>
+                  The robot was modelled after the skid steers used on construction sites, for their ability to handle various terrain, a zero turn radius, and robustness.
+                  The sensors used were 1x EV3 Ultrasonic Sensor, 2x Hall Effect Sensor, and 2x Line Finder. 
+                  The ultrasonic sensor is used for obstacle detection, while the hall sensors are used to read magnets embedded beneath the test track. The line finders are used in following the line on the test track.
+                  A front and rear view of the robot is provided below.
+                  <br><br>"
+yt_link: https://www.youtube.com/embed/MFKZrItcpFs
+yt_link2: https://www.youtube.com/embed/XFUyhdynnrQ
 ---
