@@ -1,3 +1,72 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseurl = ""
+title = "Jorgen Wu"
+theme = "hugo-coder"
+language = "en"
+defaultcontentlanguage = "en"
+
+[pagination]
+pagerSize = 20
+
+#[services]
+#[services.disqus]
+#shortname = "yourdiscussshortname"
+
+[markup]
+  [markup.highlight]
+    style = "github-dark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author = "Jorgen Wu"
+  info = "Engineer"
+  description = "Jorgen Wu's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/pfp_square.jpg"
+  #gravatar = "wujorgen@gmail.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2026
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+  katex = true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/wujorgen/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 2
+  url = "https://linkedin.com/in/jorgen-wu"
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
