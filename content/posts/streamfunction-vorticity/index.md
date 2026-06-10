@@ -4,7 +4,7 @@ date = 2026-06-08T23:20:42-04:00
 draft = false
 summary = ""
 categories = ['CFD']
-tags = ['CFD']
+tags = ['CFD', 'Julia']
 +++
 
 The following post details a code I wrote as part of a CFD course.
