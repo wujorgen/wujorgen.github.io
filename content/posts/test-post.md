@@ -25,6 +25,8 @@ $$
 \end{aligned}
 $$
 
+Link to another post: see [vorticity streamfunction simulation]({{< relref "streamfunction-vorticity/index.md" >}}).
+
 Now, we test images.
 Here's those photos along the riverfront i like so much.
 

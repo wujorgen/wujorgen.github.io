@@ -1,11 +1,11 @@
 +++
 date = '2026-06-08T23:04:22-04:00'
-draft = true
+draft = false
 title = 'About'
 +++
 
 
-I am currently a engineer at the Naval Nuclear Laboratory working on thermal hydraulics.
+I am currently a engineer at the Naval Nuclear Laboratory, where I work on thermal hydraulics.
 I am experienced with high-performance computing in Linux environemnts, computational fluid dynamics, and scientific machine learning.
 
 I am also studying at the University of Pittsburgh, where I am working on my PhD under the supervision of Drs. Peyman Givi and Masoud Barati.
@@ -28,4 +28,4 @@ I am always open to discussing scientific computing, fluid dynamics, or software
 * 📥 <a href="/JW_ATS_resume_forgradschool.pdf" target="_blank" rel="noopener noreferrer">Download My Resume</a>
 * 💼 [Connect on LinkedIn](https://linkedin.com/in/jorgen-wu)
 * 💻 [Check out my Solvers on GitHub](https://github.com/wujorgen/)
-* ✉️ [Shoot Me an Email](mailto:wujorgen@gmail.com)
+* ✉️ [Email Me](mailto:wujorgen@gmail.com)

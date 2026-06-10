@@ -1,7 +1,7 @@
 +++
 title = 'Streamfunction Vorticity'
 date = 2026-06-08T23:20:42-04:00
-draft = true
+draft = false
 summary = ""
 categories = ['CFD']
 tags = ['CFD']
@@ -84,9 +84,13 @@ $$
 <!--\end{equation}-->
 
 Impermeable walls with no-slip boundary conditions are assumed along the top and bottom of the domain.
-\begin{equation} \label{eqn:bc_u_topbot}
+<!--\begin{equation} \label{eqn:bc_u_topbot}-->
+<div>
+$$
 u(x)\big|_{top}=0, \quad u(x)\big|_{bottom}=0
-\end{equation}
+$$
+</div>
+<!--\end{equation}-->
 
 # Streamfunction
 The boundary conditions for the streamfunction must be calculated from the velocity boundary conditions.
@@ -135,28 +139,38 @@ Unlike the streamfunction, the vorticity does not need to be held at a constant 
 Relations such as Thom's method or Jensen's method must be used to determine the vorticity at the wall from the streamfunction.
 Roache and Mueller use Thom's method, which is presented below.
 Note that the $w$ subscript denotes a point on the wall, with $w+1$ indicating an interior point.
-\begin{equation} \label{eqn:bc_w_wall}
+<!--\begin{equation} \label{eqn:bc_w_wall}-->
+<div>
+$$
 \omega_w = -2(\psi_{w+1}-\psi_w)/\Delta n^2
-\end{equation}
+$$
+</div>
+<!--\end{equation}-->
 
 For the outlet, a simple no-gradient assumption is made.
-\begin{equation} \label{eqn:bc_w_out}
+<!--\begin{equation} \label{eqn:bc_w_out}-->
+<div>
+$$
 \frac{\partial \omega}{\partial x} \bigg|_{outlet} = 0
-\end{equation}
+$$
+</div>
+<!--\end{equation}-->
 
-\section{Pressure Recovery}
+# Pressure Recovery
 To recover the pressure after a steady-state solution has been obtained, the divergence of the momentum equations is taken, and the resulting Poisson equation is solved for pressure.
 The pressure terms in the momentum equations are isolated as follows.
 Note that, since the pressure is only recovered after a steady-state solution has been reached, $\partial u/\partial t$ and $\partial v/\partial t$ are $0$.
-\begin{equation} \label{eqn:dpdn}
+<!--\begin{equation} \label{eqn:dpdn}-->
+$$
 \begin{split}
-    \frac{\partial p}{\partial x} = \frac{1}{Re}\bigg(\frac{\partial^2u}{\partial x^2}+\frac{\partial^2u}{\partial y^2}\bigg) - u\frac{\partial u}{\partial x} - v\frac{\partial u}{\partial y} \equiv f \\
-    \frac{\partial p}{\partial y} = \frac{1}{Re}\bigg(\frac{\partial^2v}{\partial x^2}+\frac{\partial^2v}{\partial y^2}\bigg) - u\frac{\partial v}{\partial x} - v\frac{\partial v}{\partial y} \equiv g\\
+    \frac{\partial p}{\partial x} = \frac{1}{Re}\bigg(\frac{\partial^2u}{\partial x^2}+\frac{\partial^2u}{\partial y^2}\bigg) - u\frac{\partial u}{\partial x} - v\frac{\partial u}{\partial y} \equiv f \\\\
+    \frac{\partial p}{\partial y} = \frac{1}{Re}\bigg(\frac{\partial^2v}{\partial x^2}+\frac{\partial^2v}{\partial y^2}\bigg) - u\frac{\partial v}{\partial x} - v\frac{\partial v}{\partial y} \equiv g \\\\
 \end{split}
-\end{equation}
+$$
+<!--\end{equation}-->
 The divergence of the isolated momentum terms results in a Poisson equation for the pressure.
 $$
-\nabla^2 p = \frac{\partial}{\partial\\x}f + \frac{\partial}{\partial\\y}g
+\nabla^2 p = \frac{\partial}{\partial x}f + \frac{\partial}{\partial y}g
 $$
 In the following, $\partial_x\equiv \frac{\partial}{\partial x}$, and similarly for $y$.
 This is done to enhance readability (and for ease of typing).
@@ -182,8 +196,43 @@ $$
 $$
 <!--\end{equation}-->
 
-Equation \ref{eqn:dpdn} can be used to set Neumann boundary conditions for Equation \ref{eqn:pressure_poisson}, specifically along the top and bottom of the domain.
+The equations for $\partial p / \partial x$ and $\partial p / \partial y$ can be used to set Neumann boundary conditions for the equation shown above, specifically along the top and bottom of the domain.
 The outlet of the domain is assumed to have a simple Neumann boundary condition so that $\partial p/\partial x = 0$.
 Note that if Neumann boundary conditions are assumed everywhere, this system will be indeterminate and will not converge, as the solution is unique up to an additive constant.
 As described previously, the inlet pressure boundary was set to a Dirichlet boundary condition to simplify pressure recovery by eliminating this issue.
 The pressure at the inlet is then set to zero.
+
+# Simulation Results
+The simulation domain is eight units wide and one unit tall.
+Each unit is discretized with 61 grid points.
+The backwards-facing step was placed in the bottom-left corner of the domain and has a height of half a unit and a length of one unit.
+The maximum velocity of the inlet is set to $1.0$, and, as the non-dimensional form of the Navier-Stokes equations is used, the Reynolds number is directly set.
+As transient equations were described previously, a steady-state solution was obtained by marching in time.
+Convergence was determined when the $L2$-norm of the difference between iterations for both the vorticity and streamfunction decreased below a threshold of 1E-6.
+
+Below are streamfunction contour plots for a Reynolds number of 100, 250, and 400.
+
+![](streamfunction100.png)
+![](streamfunction250.png)
+![](streamfunction400.png)
+
+Below are vorticity plots for a Reynolds number of 100, 250, and 400.
+
+![](vorticity100.png)
+![](vorticity250.png)
+![](vorticity400.png)
+
+And last but not least, below are pressure contour plots for Reynolds numbers of 100, 250, and 400.
+
+![](pressure100.png)
+![](pressure250.png)
+![](pressure400.png)
+
+## Effect of Reynolds Number
+<!--A contour plot of the streamfunction for multiple Reynolds numbers is shown in Figure \ref{fig:streamfunctions}.-->
+<!--Similarly, a contour plot of the vorticity and pressure fields are shown in Figure \ref{fig:vorticity} and \ref{fig:pressure}.-->
+The following effects can be observed as the Reynolds number increases:
+- The recirculation zone behind the step increases in size.
+- The point at which the flow reattaches to the lower edge of the domain moves further downstream. This is most easily observed in the plots of the streamfunction and the pressure field.
+- The region of negative vorticity at the sharp corner of the step extends further to the right and down. This seems to be related to Roache and Mueller's observation of how the flow separation point moves down the vertical face of the step as the Reynolds number increases.
+- The region of negative pressure at the sharp corner of the step increases in size but decreases in magnitude. This may be a result of decreased viscous stresses, and it is possible that the pressure spike will increase in magnitude again for higher Reynolds numbers.
