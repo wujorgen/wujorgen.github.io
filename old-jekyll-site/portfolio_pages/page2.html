@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+   <head>
+      <!-- Meta -->
+      <title>Maze Robot - Jorgen Wu</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Free HTML template">
+      <meta name="keywords" content="HTML, template, free">
+      <meta name="author" content="Nicola Tolin">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Styles -->
+      <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+      <link href="../vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
+      <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+         <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+            <div class="menu-toggle">
+               <span class="icon-bars custom-toggler navbar-toggler-icon"></span>
+            </div>
+         </div>
+         <div id="toggle-nav" class="navbar-collapse collapse">
+            <ul class="navbar-nav">
+               <li class="nav-item"> <a class="nav-link" href="../index.html">Home</a> </li>
+               <li class="nav-item"> <a class="nav-link" target="_blank" href="../Wu_Jorgen_Resume_3_2.pdf">Resume</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="../projects.html">Projects</a> </li>
+               <li class="nav-item"> <a class="nav-link" href="../contact.html">Contact</a> </li>
+            </ul>
+            <div id="social"><p>&copy; 2021. Jorgen Wu</p></div>
+         </div>
+      </nav>
+      <!-- Studio -->
+      <div class="container studio">
+         <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-12 wow fadeInDown">
+               <p>This maze robot was built and programmed over the course of two class periods, as part of an Intro to Robotics Class I took.
+                  The objective of the robot is to reach the end of a maze / navigate through a system of corridors using a simple algorithm. 
+                  A touch sensor / limit switch is mounted to the front of the robot to detect collisions. 
+                  In the event of a collision, distance data is read from a ultrasonic sensor mounted on the left of the robot.
+                  Whether the path on the left is clear or not determines if the robot turns right or left.
+                  <br><br>
+                  The drivetrain employs staggered treads to fit both motors vertically and inline. The EV3 Large motor in front drives the left tread, while the one in the rear drives the right tread.
+                  The treads are plastic, which allows for slipping in the event the robot cannot perfectly orient itself, and its narrow profile is well suited for narrow corridors.
+                  The EV3 computer is mounted on top of the robot, ensuring the machine stays narrow and retains a small footprint.
+                  <br><br>
+                  Pictures and a demonstration video are provided below.
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-6 col-md-7 col-sm-12">
+               <img class="img-fluid" src="../images/mazerobot/IMG_20170524_082225735.jpg" alt="Photo">
+               <p>Left side view.</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xl-6 col-md-7 offset-md-4 col-sm-12">
+               <img class="img-fluid" src="../images/mazerobot/IMG_20170524_082231925.jpg" alt="Photo">
+               <p>Right side view.</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xl-6 col-md-7 col-sm-12">
+               <img class="img-fluid" src="../images/mazerobot/IMG_20170524_082239517.jpg" alt="Photo">
+               <p>Bottom view.</p>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xl-6 col-md-7 offset-md-4 col-sm-12">
+               <div class="video-responsive">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/hanzvAAH7MU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+               <p>Video of a successful maze run.</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- End Studio -->
+      <!-- Javascript -->
+      <script src="../vendor/jquery.min.js"></script>
+      <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+      <script src="../vendor/wow/wow.js"></script>
+      <script src="../js/script.js"></script>
+      <script>
+         new WOW().init();
+      </script>
+      <!-- End Javascript -->
+   </body>
+</html>

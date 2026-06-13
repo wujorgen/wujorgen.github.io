@@ -6,3 +6,10 @@ _site
 .jekyll-metadata
 
 Gemfile.lock
+
+.idea
+
+public/
+resources/
+*.lock
+public

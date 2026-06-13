@@ -1,0 +1,20 @@
+<!--this will work if placed in layouts/_partials/posts/math.html-->
+<!--not using it since mathjax flashes hella unrendered text-->
+{{- if or (.Params.mathjax) (.Site.Params.mathjax) -}}
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true,
+        tags: 'ams'  // Enables automatic numbering and \label/\ref anchor linking
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    };
+  </script>
+{{- end -}}

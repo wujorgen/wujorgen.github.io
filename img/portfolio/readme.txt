@@ -1,1 +1,0 @@
-make all images 3:2 aspect ratio (3 wide 2 tall)
