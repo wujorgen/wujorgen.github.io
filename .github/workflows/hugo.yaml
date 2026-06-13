@@ -3,7 +3,7 @@ name: Build and deploy
 on:
   push:
     branches:
-      - hugo-conversion
+      - master
   workflow_dispatch:
 permissions:
   contents: read
