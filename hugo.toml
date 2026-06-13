@@ -73,3 +73,8 @@ pagerSize = 20
   name = "Blog"
   weight = 2
   url  = "posts/"
+
+# for deployment on github pages
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
