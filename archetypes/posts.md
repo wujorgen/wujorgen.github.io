@@ -1,8 +1,12 @@
-+++
-title = '{{ replace .Name "-" " " | title }}'
-date = {{ .Date }}
++++ 
 draft = true
-summary = ""
-categories = []
+date = {{ .Date }}
+title = ""
+description = ""
+slug = ""
+authors = []
 tags = []
+categories = []
+externalLink = ""
+series = []
 +++

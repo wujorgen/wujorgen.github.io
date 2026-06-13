@@ -27,5 +27,5 @@ I am always open to discussing scientific computing, fluid dynamics, or software
 
 * 📥 <a href="/JW_ATS_resume_forgradschool.pdf" target="_blank" rel="noopener noreferrer">Download My Resume</a>
 * 💼 [Connect on LinkedIn](https://linkedin.com/in/jorgen-wu)
-* 💻 [Check out my Solvers on GitHub](https://github.com/wujorgen/)
+* 💻 [GitHub](https://github.com/wujorgen/)
 * ✉️ [Email Me](mailto:wujorgen@gmail.com)

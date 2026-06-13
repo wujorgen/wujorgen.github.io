@@ -43,11 +43,14 @@ pagerSize = 20
 
   katex = true
 
+  maxSeeAlsoItems = 5
+
 [taxonomies]
   category = "categories"
   series = "series"
   tag = "tags"
   author = "authors"
+  preserveTaxonomyNames = true
 
 # Social links
 [[params.social]]
