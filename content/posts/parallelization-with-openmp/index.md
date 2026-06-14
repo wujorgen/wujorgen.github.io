@@ -1,6 +1,6 @@
 +++ 
 draft = true
-date = 2026-06-13T16:16:51-04:00
+date = ""
 title = "Parallelization with Openmp for Solving PDEs"
 description = ""
 slug = "openmp-for-pdes"

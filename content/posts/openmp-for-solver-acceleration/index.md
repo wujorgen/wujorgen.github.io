@@ -1,6 +1,6 @@
 +++ 
 draft = true
-date = 2026-06-13T16:17:44-04:00
+date = ""
 title = "OpenMP for CFD"
 description = ""
 slug = ""

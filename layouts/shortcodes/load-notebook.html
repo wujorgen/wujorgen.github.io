@@ -1,1 +1,62 @@
-{{ os.ReadFile (printf "static/notebooks/%s" (.Get 0)) | safeHTML }}
+<!--{{ os.ReadFile (printf "static/notebooks/%s" (.Get 0)) | safeHTML }}-->
+
+<!--for now, lock notebooks to light mode since the equation rendering is messed up-->
+<style>
+    .permanent-light-notebook {
+        background-color: #ffffff !important;
+        color: #1a1a1a !important;
+        padding: 20px;
+        border-radius: 4px;
+    }
+
+    /* Ensure MathJax text inside stays dark charcoal */
+    .permanent-light-notebook mjx-container,
+    .permanent-light-notebook .MathJax,
+    .permanent-light-notebook .mjx-chtml {
+        color: #1a1a1a !important;
+        filter: none !important;
+    }
+
+    .permanent-light-notebook {
+        background-color: #ffffff !important;
+        color: #1a1a1a !important;
+        padding: 20px;
+        border-radius: 4px;
+    }
+
+    /* FORCE ALL HEADINGS INSIDE TO STAY DARK CHARCOAL */
+    .permanent-light-notebook h1,
+    .permanent-light-notebook h2,
+    .permanent-light-notebook h3,
+    .permanent-light-notebook h4 {
+        color: #1a1a1a !important;
+    }
+
+    .permanent-light-notebook mjx-container,
+    .permanent-light-notebook .MathJax,
+    .permanent-light-notebook .mjx-chtml {
+        color: #1a1a1a !important;
+        filter: none !important;
+    }
+</style>
+
+<div class="permanent-light-notebook">
+    {{ os.ReadFile (printf "static/notebooks/%s" (.Get 0)) | safeHTML }}
+</div>
+
+<script>
+    if (!window.MathJax) {
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+        var script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js';
+        script.async = true;
+        document.head.appendChild(script);
+    } else if (typeof MathJax.typeset === 'function') {
+        MathJax.typeset();
+    }
+</script>

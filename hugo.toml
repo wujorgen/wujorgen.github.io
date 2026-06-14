@@ -34,10 +34,10 @@ pagerSize = 20
 
   enableTwemoji = true
 
-  colorScheme = "dark"
+  colorScheme = "auto"
   hidecolorschemetoggle = false
 
-  # customCSS = ["css/custom.css"]
+  customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
 

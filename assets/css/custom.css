@@ -1,0 +1,23 @@
+@media (prefers-color-scheme: dark) {
+    /* Force MathJax display blocks to drop their hardcoded styling and accept light text */
+    .mjx-chtml,
+    .MathJax_CHTML,
+    .mjx-math,
+    .mjx-math * {
+        color: #dadada !important;
+        background-color: transparent !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Invert the colors of the notebook container to create a perfect dark mode */
+    .jupyter-notebook-container {
+        filter: invert(0) hue-rotate(180deg);
+    }
+
+    /* Optional: If you have plots/images in the notebook, this keeps them normal */
+    .jupyter-notebook-container img,
+    .jupyter-notebook-container .jp-Image {
+        filter: invert(0) hue-rotate(180deg);
+    }
+}

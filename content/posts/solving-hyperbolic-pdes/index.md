@@ -1,19 +1,20 @@
 +++ 
-draft = true
-date = 2026-06-13T17:14:24-04:00
+draft = false
+date = 2026-06-14
 title = "Solving Hyperbolic PDEs"
 description = ""
 slug = ""
 authors = []
-tags = []
-categories = []
+tags = ['CFD', 'PDE']
+categories = ['CFD']
 externalLink = ""
 series = []
-[[resources]]
-  src = "*.html"
-  name = "notebook"
 +++
 
-Here are the simulation results directly from the Jupyter Notebook:
+This post will discuss solution methods for hyperbolic PDEs.
+Stability analyses via the method of modified equations are provided alongside code examples.
 
-{{< load-notebook "me2055hw6.html" >}}
+This may look awful if you are viewing it in dark mode since the notebook container currently forces light mode.
+This is due to issues with the equations appearing as black text on a dark background.
+
+{{< load-notebook "solving-hyperbolic-pdes.html" >}}

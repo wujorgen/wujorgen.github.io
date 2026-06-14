@@ -20,6 +20,7 @@ However, treatment of boundary conditions is slightly more difficult as values f
 
 The primitive variable formulation of the Navier-Stokes equations contains terms for both the velocity field and the pressure field, which is where the coupling issue arises.
 To resolve this, the projection method can be used.
+Here, the projection method will be implemented on a staggered grid.
 
 # Projection Method
 
@@ -97,8 +98,8 @@ The five-point Laplacian stencil is then considered to be discretized on a grid 
 The projection step is discretized as:
 <span style="display: block; overflow-x: auto; padding-bottom: 10px;">
 $$
-    u_{i,j}^{n+1} = u_{i,j}^* - \Delta t \frac{p_{i+1,j} - p_{i,j}}{\Delta x} \\
-    u_{i,j}^{n+1} = u_{i,j}^* - \Delta t \frac{p_{i,j+1} - p_{i,j}}{\Delta x}
+    u_{i,j}^{n+1} = u_{i,j}^* - \Delta t \frac{p_{i+1,j} - p_{i,j}}{\Delta x} \\\\
+    v_{i,j}^{n+1} = v_{i,j}^* - \Delta t \frac{p_{i,j+1} - p_{i,j}}{\Delta x}
 $$
 </span>
 
