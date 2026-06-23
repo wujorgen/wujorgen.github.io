@@ -40,15 +40,16 @@ $$
 \frac{\phi_{i+1,j} - 2 \phi_{i, j} + \phi_{i-1, j}}{\Delta x^2} + \frac{\phi_{i,j+1} - 2 \phi_{i, j} + \phi_{i,j-1}}{\Delta x^2} =  f_{i,j}
 $$
 
-For the source function on the right hand side, we will use a two-dimensional Gaussian distribution.
-The grid will be uniform in both directions so that $h=\Delta x=\Delta y$.
-
 Direchlet boundary conditions will be used everywhere, as they are the simplest to implement. We will just set all points on the boundary to be zero.
+The grid will be uniform in both directions so that $h=\Delta x=\Delta y$.
+The source function on the right hand side is:
+$$
+f = 2\pi^2\sin(\pi x)\sin(\pi y)
+$$
 
 In the following, the linear system $Ax=b$ is solved, where $A$ the coefficient matrix and $a_{ij}$ are the entries of $A$. The vector $x$ is the solution to the system, and $b$ is the right hand side.
 
 Note that for the test problem considered here, each point depends only on its immediate neighbors.
-This means it is not necessary to construct "flattened" vectors and coefficient matrices as is usually done in CFD.
 For simplicity, $\phi$ and $f$ will be stored as an $n\times n$ matrices.
 In Fortran, this can be declared as:
 
