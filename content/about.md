@@ -16,14 +16,14 @@ Outside of my professional and academic life, I am into photography, music produ
 ### Technical Profile
 
 * **Languages:** Python, Julia, Fortran, C/C++
-* **Parallel Computing:** Shared-Memory Multiprocessing (OpenMP), Multi-threading, GPU Acceleration (CUDA)
+* **Domain Focus:** Computational Fluid Dynamics (CFD), Numerical Methods, Quantum Computing / Variational Quantum Algorithms, Optimization
 * **Modeling Paradigms:** Scientific Machine Learning (SciML), Reduced-Order Modeling (ROM)
-* **Domain Focus:** Computational Fluid Dynamics (CFD), Numerical Methods
 * **Toolchain & Environment:** Linux, Git, CMake
+* **Parallel Computing:** Shared-Memory Multiprocessing (OpenMP), Multi-threading, GPU Acceleration (CUDA)
 
 ### Let's Connect
 
-I am always open to discussing scientific computing, fluid dynamics, or software engineering opportunities.
+I am always happy to chat about anything related to scientific computing, quantum algorithms, or any random topics. Surprise me! 
 
 * 📥 <a href="/JW_ATS_resume_forgradschool.pdf" target="_blank" rel="noopener noreferrer">Download My Resume</a>
 * 💼 [Connect on LinkedIn](https://linkedin.com/in/jorgen-wu)
